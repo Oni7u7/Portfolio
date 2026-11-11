@@ -21,7 +21,7 @@ export default function About() {
           <div className="relative aspect-square w-full overflow-hidden rounded-sm border border-line">
             <Image
               src="/me.jpg"
-              alt="Tu foto"
+              alt="Foto de Onii"
               fill
               sizes="(max-width: 768px) 100vw, 280px"
               className="object-cover grayscale transition-all duration-500 hover:grayscale-0"
@@ -34,8 +34,8 @@ export default function About() {
           <Reveal delay={0.05}>
             <p className="mb-4 text-[1.05rem] text-muted">
               Soy desarrollador <strong className="font-semibold text-ink">Fullstack</strong>.
-              Me interesa lo que pasa entre la mente y el codigo, ademas de tener un gran apego hacia las paginas Web
-              como al igual a las app, pero no solo me centro en eso tambien busco ampliar mas mi saber.
+              Me interesa lo que pasa entre la mente y el código. Tengo un gran apego a las páginas web
+              y a las apps, pero no me centro solo en eso: también busco ampliar cada vez más lo que sé.
             </p>
           </Reveal>
           <Reveal delay={0.1}>
@@ -44,10 +44,10 @@ export default function About() {
               <strong className="font-semibold text-ink">aprendiendo algo nuevo</strong> —
               últimamente animación web, gráficos 3D y todo lo que haga que una interfaz
               se sienta viva. Este portafolio es mi primer proyecto de ese tipo.
-            </p><br></br>
+            </p>
           </Reveal>
           <Reveal delay={0.2}>
-            <p className="text-[1.05rem] text-muted">
+            <p className="mt-4 text-[1.05rem] text-muted">
               Además de tener un profundo amor por los videojuegos, los juegos de mesa, los autos y las películas de terror —sin dejar de lado la música en general—, lo que más me apasiona es programar y manejar. Siento que ambas actividades se parecen mucho: si manejas bien, no hay problema, pero un error puede traer consecuencias graves, igual que en el código. Además, disfruto mucho pasar tiempo con mi familia, mis amigos y mi equipo de trabajo.
             </p>
           </Reveal>

@@ -5,8 +5,8 @@ const groups = [
   { title: "Lenguajes", items: ["JavaScript / TypeScript", "Python", "Solidity", "Java"] },
   { title: "Frameworks", items: ["React", "Next.js", "Node.js", "Flask"] },
   { title: "Herramientas", items: ["Git & GitHub", "Vercel", "Visual Studio Code", "CI/CD"] },
-  { title: "Base de datos", items: ["Oracle", "MongoDB", "MySQL", "Supabase(Postgress)"]},
-  { title: "AI", items: ["GPT", "CLaude", "Gemini(Gemma)", "Ollama"]},
+  { title: "Base de datos", items: ["Oracle", "MongoDB", "MySQL", "Supabase (PostgreSQL)"]},
+  { title: "AI", items: ["GPT", "Claude", "Gemini (Gemma)", "Ollama"]},
   { title: "S.O", items: ["Windows", "Linux", "MacOS"]},
 
 ];
